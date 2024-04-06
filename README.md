@@ -1,38 +1,12 @@
-# create-svelte
+# Election results
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+A simple application that shows Czech presidency's first round election's results
 
-## Creating a project
+## TODOS
 
-If you're seeing this, you've probably already done this step. Congrats!
+Improve the SearchCombo component accessibility and functionality
+Improve ChartBar look
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+## Pitfalls
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+Due to limited time, i converted only one XML file result to JSON ( i believe there is 14 files), but the concept and functionality will remain the same
